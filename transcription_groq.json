@@ -1,0 +1,26 @@
+{
+  "creation_timestamp": "",
+  "questionnaire_id": "transcription_groq",
+  "title": "Transcription Audio (Groq)",
+  "description": "Enregistrement et transcription audio via l'API Groq",
+  "icon": "🎙️",
+  "questionnaire_type": "transcription_groq",
+  "document_handler": "transcription/groq-handler",
+  "questionnaire_type_version": "2025-03-11",
+  "llm_prompt": "Assistant médical : Analyse de la transcription audio et extraction des informations pertinentes.",
+  "metadata": {
+    "provider": "groq",
+    "etat": "prêt"
+  },
+  "questions": {
+    "transcription": {
+      "description": "Transcription audio",
+      "prompt": "Enregistrez votre audio en cliquant sur le bouton d'enregistrement. La transcription apparaîtra ici une fois terminée. La qualité de la transcription dépend de la clarté de l'enregistrement audio. Parlez distinctement et évitez les bruits de fond.",
+      "exemple": "Le patient se plaint de douleurs abdominales depuis trois jours, accompagnées de nausées mais sans vomissements.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    }
+  }
+}

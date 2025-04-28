@@ -1,0 +1,125 @@
+{
+    "creation_timestamp": "",
+    "questionnaire_id": "questionnaire_suivi_tca_court_json",
+    "title": "Questionnaire de Suivi Court - Troubles du Comportement Alimentaire",
+    "description": "Questionnaire de suivi court pour les consultations de suivi des Troubles du Comportement Alimentaire (TCA).",
+    "icon": "📝",
+    "questionnaire_type": "questionnaire_suivi_tca_court",
+    "questionnaire_type_version": "2024-01-04_16-00-00",
+    "llm_prompt": "Assistant médical : Questionnaire de suivi court pour TCA. Compléter les champs value, quality, review pour la consultation de suivi.",
+    "questions": {
+      "identification_patient": {
+        "type": "string",
+        "description": "Identification du patient",
+        "prompt": "Nom, prénom, date de la consultation. Pour identification du dossier et datation du suivi.",
+        "exemple": "Mlle Jeanne Dupont - Consultation du 11 mars 2025",
+        "value": "",
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "poids_actuel": {
+        "type": "number",
+        "description": "Poids actuel (kg)",
+        "prompt": "Poids mesuré lors de la consultation.",
+        "value": null,
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "imc_actuel": {
+        "type": "number",
+        "description": "IMC actuel",
+        "prompt": "Calcul de l'IMC actuel.",
+        "value": null,
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "restriction_alimentaire_evolution": {
+        "type": "string_dropdown",
+        "description": "Restriction alimentaire (évolution depuis dernière consultation)",
+        "prompt": "Évaluer l'évolution de la restriction alimentaire : amélioration, stabilité, aggravation.",
+        "options": ["Amélioration nette", "Amélioration légère", "Stable", "Aggravation légère", "Aggravation nette"],
+        "value": null,
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "crises_boulimie_frequence": {
+        "type": "string",
+        "description": "Crises de boulimie (fréquence)",
+        "prompt": "Fréquence des crises de boulimie depuis la dernière consultation (si concerné).",
+        "value": "",
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "comportements_purgatoires_frequence": {
+        "type": "string",
+        "description": "Comportements purgatoires (fréquence)",
+        "prompt": "Fréquence des comportements purgatoires depuis la dernière consultation (si concerné).",
+        "value": "",
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "image_corporelle_ressenti": {
+        "type": "string_dropdown",
+        "description": "Image corporelle (ressenti subjectif)",
+        "prompt": "Évaluer le ressenti subjectif concernant l'image corporelle : amélioration, stabilité, aggravation.",
+        "options": ["Amélioration nette", "Amélioration légère", "Stable", "Aggravation légère", "Aggravation nette"],
+        "value": null,
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "humeur_anxiete_evolution": {
+        "type": "string_dropdown",
+        "description": "Humeur et Anxiété (évolution)",
+        "prompt": "Évaluer l'évolution de l'humeur et de l'anxiété depuis la dernière consultation.",
+        "options": ["Amélioration nette", "Amélioration légère", "Stable", "Aggravation légère", "Aggravation nette"],
+        "value": null,
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "traitement_observance": {
+        "type": "string",
+        "description": "Traitement et observance",
+        "prompt": "Points sur l'observance du traitement (médicaments, psychothérapie, suivi diététique...). Difficultés rencontrées.",
+        "value": "",
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "repercussions_fonctionnelles_evolution": {
+        "type": "string_dropdown",
+        "description": "Répercussions fonctionnelles (évolution)",
+        "prompt": "Évolution des répercussions fonctionnelles (scolaire/pro, sociale, familiale...) depuis dernière consultation.",
+        "options": ["Amélioration nette", "Amélioration légère", "Stable", "Aggravation légère", "Aggravation nette"],
+        "value": null,
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "questions_concerns": {
+        "type": "string",
+        "description": "Questions et préoccupations",
+        "prompt": "Questions, préoccupations ou points à aborder soulevés par le patient et/ou la famille.",
+        "value": "",
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      },
+      "plan_suivi_prochaine_etape": {
+        "type": "string",
+        "description": "Plan de suivi et prochaine étape",
+        "prompt": "Planification du suivi, ajustements du traitement, prochain RDV, objectifs.",
+        "value": "",
+        "quality": 0,
+        "review": "",
+        "value_history": []
+      }
+    }
+  }
