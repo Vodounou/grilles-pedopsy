@@ -68,12 +68,5 @@
     "description": "Fichier JSON ultra-simplifié pour le résumé de consultation, centré sur 3 questions clés (Évolution, Analyse, Projet) pour la problématique principale.",
     "icon": "📄",
     "url": "resume_consultation.json"
-  },
-  {
-    "id": "transcription_groq",
-    "title": "Transcription Audio (Groq)",
-    "description": "Enregistrement et transcription audio via l'API Groq",
-    "icon": "🎙️",
-    "url": "transcription_groq.json"
   }
 ]
