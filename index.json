@@ -1,12 +1,5 @@
 [
   {
-    "id": "ModelCourrier_patient_medical_simplifie",
-    "title": "ModelCourrier_patient_medical_simplifie",
-    "description": "Grille d'analyse pour les courriers médicaux simplifiés",
-    "icon": "📋",
-    "url": "ModelCourrier_patient_medical_simplifie.json"
-  },
-  {
     "id": "grille_consultation_minimale",
     "title": "Grille de Consultation Médicale Minimale",
     "description": "Grille de base pour la consultation médicale initiale",
