@@ -1,6 +1,6 @@
 {
   "grid_id": "grille_consultation_suivi_pedopsy_minimale.json",
-  "average_rating": 4.5,
+  "average_rating": 3.3,
   "evaluations": [
     {
       "rating": 4,
@@ -13,7 +13,13 @@
       "note": "sdfqflmml",
       "author": "kldfmklsdqf",
       "date": "2025-05-06T22:04:55.632Z"
+    },
+    {
+      "rating": 1,
+      "note": "bof bof",
+      "author": "bof",
+      "date": "2025-05-06T22:05:19.031Z"
     }
   ],
-  "updated_at": "2025-05-06T22:04:55.632Z"
+  "updated_at": "2025-05-06T22:05:19.031Z"
 }
