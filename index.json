@@ -1,5 +1,12 @@
 [
   {
+    "id": "ModelCourrier_patient_medical_simplifie",
+    "title": "ModelCourrier_patient_medical_simplifie",
+    "description": "Grille d'analyse pour les courriers médicaux simplifiés",
+    "icon": "📋",
+    "url": "ModelCourrier_patient_medical_simplifie.json"
+  },
+  {
     "id": "grille_consultation_minimale",
     "title": "Grille de Consultation Médicale Minimale",
     "description": "Grille de base pour la consultation médicale initiale",
@@ -19,6 +26,13 @@
     "description": "Version minimale de la grille standardisée pour le suivi des patients en pédopsychiatrie",
     "icon": "👶",
     "url": "grille_consultation_suivi_pedopsy_minimale.json"
+  },
+  {
+    "id": "grille_courrier_medical_simplifie",
+    "title": "Synthèse d'Entretien Médical - Courrier Simplifié",
+    "description": "Grille simplifiée pour la rédaction d'un courrier de synthèse à l'intention du patient suite à une consultation médicale",
+    "icon": "📝",
+    "url": "grille_courrier_medical_simplifie.json"
   },
   {
     "id": "questionnaire-medical",
