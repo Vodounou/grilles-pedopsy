@@ -28,6 +28,13 @@
     "url": "grille_courrier_medical_simplifie.json"
   },
   {
+    "id": "jkhl_jkqdfsourrier_patient_medical_simplifie",
+    "title": "jkhl jkqdfsourrier_patient_medical_simplifie",
+    "description": "Grille d'analyse pour les courriers médicaux simplifiés",
+    "icon": "📋",
+    "url": "jkhl_jkqdfsourrier_patient_medical_simplifie.json"
+  },
+  {
     "id": "questionnaire-medical",
     "title": "Questionnaire Médical Général",
     "description": "Questionnaire médical complet pour recueillir les informations essentielles sur l'histoire de la maladie, les problèmes associés et les antécédents du patient.",
@@ -45,7 +52,7 @@
     "id": "questionnaire_initial_complet_anorexie",
     "title": "Grille d'Exploration Initiale du Trouble Anorexique Boulimique (JSON Flat)",
     "description": "Grille standardisée pour l'exploration initiale du trouble anorexique boulimique, basée sur le modèle IACAPAP et les recommandations cliniques, au format JSON (structure plate sans imbrication).",
-    "icon": "📋",
+    "icon": "",
     "url": "questionnaire_initial_complet_anorexie.json"
   },
   {
