@@ -1,6 +1,6 @@
 {
   "grid_id": "grille_consultation_suivi_pedopsy_complete.json",
-  "average_rating": 3,
+  "average_rating": 2.7,
   "evaluations": [
     {
       "rating": 3,
@@ -13,7 +13,13 @@
       "note": "",
       "author": "Verson deux",
       "date": "2025-05-06T22:08:55.366Z"
+    },
+    {
+      "rating": 2,
+      "note": "mercredi 7 mai 2025",
+      "author": "dede",
+      "date": "2025-05-06T22:11:23.633Z"
     }
   ],
-  "updated_at": "2025-05-06T22:08:55.366Z"
+  "updated_at": "2025-05-06T22:11:23.633Z"
 }
