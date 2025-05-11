@@ -1,0 +1,22 @@
+{
+  "uid": "38e4b3f3-98bb-41d4-ad07-8f037f92c6d4",
+  "title": "Modele_-_Grille_de_test",
+  "description": " Ceci est une grille de test.",
+  "prompt": " Tu es un LLM qui s'occupe d'analyser dans le cadre d'un logiciel d'analyse différents documents. Ceci est une grille de test. Je te demande de me renvoyer une réponse au format JSON correctement formaté, éventuellement avec du markdown et un bon échappement des caractères.",
+  "questions": [
+    {
+      "uid": "2182ed06-3009-4284-b776-9e03cbe1153b",
+      "key": "q1",
+      "description": "",
+      "prompt": "Ceci est une grille de test. Je te demande d'analyser les documents qui t'ont été envoyés et de me répondre une synthèse globale de ce que tu en comprends et de me dire éventuellement si tu ne comprends rien.",
+      "example": "Ce document est un document d'analyse de test. Nous voyons la conversation entre deux personnes.",
+      "answer": "",
+      "review": "",
+      "quality": -1,
+      "remark": "Synthèse globale des sujets abordés dans la conversation."
+    }
+  ],
+  "timestamp": 1746972122832,
+  "questionnaire_id": "Modele_-_Grille_de_test",
+  "icon": ""
+}
