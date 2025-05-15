@@ -1,789 +1,808 @@
 {
-    "creation_timestamp": "2024-01-04_15-45-00",
-    "questionnaire_id": "grille_consultation_anorexie_boulimie_json_flat",
-    "title": "Grille d'Exploration Initiale du Trouble Anorexique Boulimique (JSON Flat)",
-    "description": "Grille standardisée pour l'exploration initiale du trouble anorexique boulimique, basée sur le modèle IACAPAP et les recommandations cliniques, au format JSON (structure plate sans imbrication).",
-    "icon": "",
-    "questionnaire_type": "grille_consultation_anorexie_boulimie",
-    "questionnaire_type_version": "2024-01-04_15-45-00_flat",
-    "llm_prompt": "Assistant médical : Grille de consultation d'exploration initiale du trouble anorexique boulimique (JSON Flat). Compléter les champs value, quality, review.",
-    "questions": {
-      "identification_patient": {
-        "type": "string",
-        "description": "Identification du patient",
-        "prompt": "Nom, prénom, date de naissance, sexe, âge, niveau scolaire/professionnel. Vérifier l'identité et recueillir les informations démographiques de base.",
-        "exemple": "Mlle Jeanne Dupont, née le 15/03/2007, sexe féminin, 16 ans, Lycée, classe de première.",
-        "value": "",
-        "quality": 0,
-        "review": "",
-        "value_history": []
-      },
-      "motif_consultation": {
-        "type": "string",
-        "description": "Motif de consultation",
-        "prompt": "Raison de la consultation actuelle, qui a initié la démarche (patient, famille, médecin généraliste, autre). Préciser l'origine de la demande et les préoccupations initiales.",
-        "exemple": "Consultation à la demande de la mère, inquiète de la perte de poids et du comportement alimentaire de sa fille.",
-        "value": "",
-        "quality": 0,
-        "review": "",
-        "value_history": []
-      },
-      "histoire_trouble_alimentaire_debut_symptomes": {
-        "type": "string",
-        "description": "Début des symptômes (âge, circonstances)",
-        "value": "",
-        "quality": 0,
-        "remarque": "Préciser l'âge d'apparition des premiers symptômes et les facteurs contextuels associés.",
-        "value_history": []
-      },
-      "histoire_trouble_alimentaire_evolution_symptomes": {
-        "type": "string",
-        "description": "Évolution dans le temps (phases de restriction, crises, purges)",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire l'évolution chronologique des différents symptômes et leur fluctuation.",
-        "value_history": []
-      },
-      "histoire_trouble_alimentaire_traitements_anterieurs": {
-        "type": "string",
-        "description": "Traitements antérieurs et efficacité",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister les traitements déjà entrepris, leur durée et leur impact perçu.",
-        "value_history": []
-      },
-      "poids_taille_imc_poids_habituel": {
-        "type": "number",
-        "description": "Poids habituel (avant trouble) en kg",
-        "value": null,
-        "quality": 0,
-        "remarque": "Noter le poids de référence avant le début des restrictions.",
-        "value_history": []
-      },
-      "poids_taille_imc_poids_plus_eleve": {
-        "type": "number",
-        "description": "Poids le plus élevé atteint en kg",
-        "value": null,
-        "quality": 0,
-        "remarque": "Si pertinent, noter le poids maximal atteint.",
-        "value_history": []
-      },
-      "poids_taille_imc_poids_plus_bas": {
-        "type": "number",
-        "description": "Poids le plus bas atteint en kg",
-        "value": null,
-        "quality": 0,
-        "remarque": "Noter le poids minimal atteint lors de l'épisode de TCA.",
-        "value_history": []
-      },
-      "poids_taille_imc_poids_actuel": {
-        "type": "number",
-        "description": "Poids actuel en kg",
-        "value": null,
-        "quality": 0,
-        "remarque": "Mesurer et noter le poids lors de la consultation.",
-        "value_history": []
-      },
-      "poids_taille_imc_taille_actuelle": {
-        "type": "number",
-        "description": "Taille actuelle en mètres",
-        "value": null,
-        "quality": 0,
-        "remarque": "Mesurer et noter la taille lors de la consultation.",
-        "value_history": []
-      },
-      "poids_taille_imc_imc_habituel": {
-        "type": "number",
-        "description": "IMC habituel",
-        "value": null,
-        "quality": 0,
-        "remarque": "Calculer ou estimer l'IMC habituel.",
-        "value_history": []
-      },
-      "poids_taille_imc_imc_actuel": {
-        "type": "number",
-        "description": "IMC actuel",
-        "value": null,
-        "quality": 0,
-        "remarque": "Calculer l'IMC actuel à partir du poids et de la taille mesurés.",
-        "value_history": []
-      },
-      "poids_taille_imc_courbe_poids": {
-        "type": "attachment",
-        "description": "Courbe de poids (si disponible)",
-        "value": null,
-        "quality": 0,
-        "remarque": "Joindre la courbe de croissance staturo-pondérale si disponible.",
-        "value_history": []
-      },
-      "restriction_alimentaire_aliments_evites": {
-        "type": "string",
-        "description": "Aliments évités",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister précisément les catégories d'aliments ou aliments spécifiques évités.",
-        "value_history": []
-      },
-      "restriction_alimentaire_quantites_rythme_repas": {
-        "type": "string",
-        "description": "Quantités consommées / rythme des repas",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire les quantités ingérées par repas et la répartition des repas sur la journée.",
-        "value_history": []
-      },
-      "restriction_alimentaire_rituels_alimentaires": {
-        "type": "string",
-        "description": "Rituels alimentaires",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire les éventuels rituels ou comportements particuliers autour des repas.",
-        "value_history": []
-      },
-      "restriction_alimentaire_regimes_jeune": {
-        "type": "string",
-        "description": "Régimes restrictifs / jeûne",
-        "value": "",
-        "quality": 0,
-        "remarque": "Préciser si la personne suit des régimes ou pratique le jeûne.",
-        "value_history": []
-      },
-      "restriction_alimentaire_motivations_restrictions": {
-        "type": "string",
-        "description": "Motivations des restrictions (peur de grossir, contrôle, etc.)",
-        "value": "",
-        "quality": 0,
-        "remarque": "Explorer les raisons et motivations conscientes et inconscientes des restrictions.",
-        "value_history": []
-      },
-      "crises_boulimie_presence_crises": {
-        "type": "boolean",
-        "description": "Présence de crises de boulimie ?",
-        "value": null,
-        "quality": 0,
-        "remarque": "Confirmer ou infirmer la présence de crises de boulimie.",
-        "value_history": []
-      },
-      "crises_boulimie_frequence_crises": {
-        "type": "string",
-        "description": "Fréquence des crises",
-        "value": "",
-        "quality": 0,
-        "remarque": "Préciser la fréquence des crises (par jour, par semaine, par mois).",
-        "value_history": []
-      },
-      "crises_boulimie_contenu_crises": {
-        "type": "string",
-        "description": "Contenu des crises",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire les types d'aliments consommés pendant les crises.",
-        "value_history": []
-      },
-      "crises_boulimie_circonstances_crises": {
-        "type": "string",
-        "description": "Circonstances des crises",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire le contexte et les déclencheurs des crises.",
-        "value_history": []
-      },
-      "crises_boulimie_perte_controle_crises": {
-        "type": "boolean",
-        "description": "Sentiment de perte de contrôle pendant les crises ?",
-        "value": null,
-        "quality": 0,
-        "remarque": "Évaluer le vécu subjectif de perte de contrôle pendant les crises.",
-        "value_history": []
-      },
-      "crises_boulimie_definition_crise_boulimie": {
-        "type": "boolean",
-        "description": "Correspondent à la définition de crise de boulimie (quantité excessive + perte de contrôle) ?",
-        "value": null,
-        "quality": 0,
-        "remarque": "Valider si les épisodes rapportés correspondent à la définition de la crise boulimique.",
-        "value_history": []
-      },
-      "comportements_purgatoires_vomissements_provoques": {
-        "type": "checkbox",
-        "description": "Vomissements provoqués",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si présence de vomissements provoqués et préciser la fréquence.",
-        "value_history": []
-      },
-      "comportements_purgatoires_vomissements_provoques_frequence": {
-        "type": "string",
-        "description": "Fréquence des vomissements provoqués",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "comportements_purgatoires_laxatifs": {
-        "type": "checkbox",
-        "description": "Laxatifs",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si utilisation de laxatifs et préciser la fréquence.",
-        "value_history": []
-      },
-      "comportements_purgatoires_laxatifs_frequence": {
-        "type": "string",
-        "description": "Fréquence d'utilisation des laxatifs",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "comportements_purgatoires_diuretiques": {
-        "type": "checkbox",
-        "description": "Diurétiques",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si utilisation de diurétiques et préciser la fréquence.",
-        "value_history": []
-      },
-      "comportements_purgatoires_diuretiques_frequence": {
-        "type": "string",
-        "description": "Fréquence d'utilisation des diurétiques",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "comportements_purgatoires_lavements": {
-        "type": "checkbox",
-        "description": "Lavements",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si utilisation de lavements et préciser la fréquence.",
-        "value_history": []
-      },
-      "comportements_purgatoires_lavements_frequence": {
-        "type": "string",
-        "description": "Fréquence d'utilisation des lavements",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "comportements_purgatoires_exercice_excessif": {
-        "type": "checkbox",
-        "description": "Exercice physique excessif",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si pratique d'exercice physique excessif et décrire.",
-        "value_history": []
-      },
-      "comportements_purgatoires_exercice_excessif_description_exercice": {
-        "type": "string",
-        "description": "Description de l'exercice physique excessif",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "comportements_purgatoires_jeune_compensatoire": {
-        "type": "checkbox",
-        "description": "Jeûne compensatoire",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si pratique de jeûne compensatoire et préciser la fréquence.",
-        "value_history": []
-      },
-      "comportements_purgatoires_jeune_compensatoire_frequence": {
-        "type": "string",
-        "description": "Fréquence du jeûne compensatoire",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "comportements_purgatoires_autres_purgatoires": {
-        "type": "string",
-        "description": "Autres comportements purgatoires",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire d'autres comportements purgatoires éventuels.",
-        "value_history": []
-      },
-      "perception_image_corporelle_insatisfaction_corporelle": {
-        "type": "checkbox",
-        "description": "Insatisfaction corporelle",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si présence d'insatisfaction corporelle et décrire.",
-        "value_history": []
-      },
-      "perception_image_corporelle_insatisfaction_corporelle_description_insatisfaction": {
-        "type": "string",
-        "description": "Description de l'insatisfaction corporelle",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "perception_image_corporelle_distorsion_image_corporelle": {
-        "type": "checkbox",
-        "description": "Distorsion de l'image corporelle",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si distorsion de l'image corporelle et décrire.",
-        "value_history": []
-      },
-      "perception_image_corporelle_distorsion_image_corporelle_description_distorsion": {
-        "type": "string",
-        "description": "Description de la distorsion de l'image corporelle",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "perception_image_corporelle_estime_de_soi_image_corporelle": {
-        "type": "checkbox",
-        "description": "Influence de l'image corporelle sur l'estime de soi",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si influence de l'image corporelle sur l'estime de soi et décrire.",
-        "value_history": []
-      },
-      "perception_image_corporelle_estime_de_soi_image_corporelle_description_estime": {
-        "type": "string",
-        "description": "Description de l'influence de l'image corporelle sur l'estime de soi",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "perception_image_corporelle_peur_grossir": {
-        "type": "checkbox",
-        "description": "Peur de grossir",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si peur de grossir et préciser l'intensité.",
-        "value_history": []
-      },
-      "perception_image_corporelle_peur_grossir_intensite_peur_grossir": {
-        "type": "string",
-        "description": "Intensité de la peur de grossir",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "perception_image_corporelle_ideal_minceur": {
-        "type": "checkbox",
-        "description": "Intégration de l'idéal de minceur",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si intégration de l'idéal de minceur et décrire.",
-        "value_history": []
-      },
-      "perception_image_corporelle_ideal_minceur_description_ideal_minceur": {
-        "type": "string",
-        "description": "Description de l'intégration de l'idéal de minceur",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "perception_image_corporelle_verifications_corporelles": {
-        "type": "checkbox",
-        "description": "Vérifications corporelles (miroir, balance, etc.)",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si présence de vérifications corporelles et décrire.",
-        "value_history": []
-      },
-      "perception_image_corporelle_verifications_corporelles_description_verifications": {
-        "type": "string",
-        "description": "Description des vérifications corporelles",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_humeur_depressive": {
-        "type": "checkbox",
-        "description": "Humeur dépressive",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si humeur dépressive et décrire.",
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_humeur_depressive_description_humeur_depressive": {
-        "type": "string",
-        "description": "Description de l'humeur dépressive",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_perte_interet": {
-        "type": "boolean",
-        "description": "Perte d'intérêt",
-        "value": null,
-        "quality": 0,
-        "remarque": "Cocher si perte d'intérêt.",
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_culpabilite": {
-        "type": "boolean",
-        "description": "Culpabilité",
-        "value": null,
-        "quality": 0,
-        "remarque": "Cocher si culpabilité.",
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_idees_noires_suicidaires": {
-        "type": "checkbox",
-        "description": "Idées noires/suicidaires",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si idées noires/suicidaires et préciser.",
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_idees_noires_suicidaires_precision_idees_noires": {
-        "type": "string",
-        "description": "Précision sur les idées noires/suicidaires",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_anxiete_generalisee": {
-        "type": "checkbox",
-        "description": "Anxiété généralisée",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si anxiété généralisée et décrire.",
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_anxiete_generalisee_description_anxiete_generalisee": {
-        "type": "string",
-        "description": "Description de l'anxiété généralisée",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_toc": {
-        "type": "checkbox",
-        "description": "TOC",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si TOC et décrire (rituels alimentaires ?).",
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_toc_description_toc": {
-        "type": "string",
-        "description": "Description des TOC (rituels alimentaires ?)",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_anxiete_sociale": {
-        "type": "checkbox",
-        "description": "Anxiété sociale",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si anxiété sociale et décrire.",
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_anxiete_sociale_description_anxiete_sociale": {
-        "type": "string",
-        "description": "Description de l'anxiété sociale",
-        "value": "",
-        "quality": 0,
-        "value_history": []
-      },
-      "symptomes_associes_humeur_anxiete_autres_symptomes_associes": {
-        "type": "string",
-        "description": "Autres symptômes associés",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire d'autres symptômes associés (humeur, anxiété ou autres).",
-        "value_history": []
-      },
-      "repercussions_fonctionnelles_scolaires_professionnelles": {
-        "type": "string",
-        "description": "Scolaires / Professionnelles",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire les répercussions sur le fonctionnement scolaire ou professionnel.",
-        "value_history": []
-      },
-      "repercussions_fonctionnelles_sociales": {
-        "type": "string",
-        "description": "Sociales",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire les répercussions sur le fonctionnement social et les relations amicales.",
-        "value_history": []
-      },
-      "repercussions_fonctionnelles_familiales": {
-        "type": "string",
-        "description": "Familiales",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire les répercussions sur le fonctionnement familial et les relations familiales.",
-        "value_history": []
-      },
-      "repercussions_fonctionnelles_loisirs_activites": {
-        "type": "string",
-        "description": "Loisirs / Activités",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire les répercussions sur les loisirs et activités habituelles.",
-        "value_history": []
-      },
-      "repercussions_fonctionnelles_qualite_de_vie": {
-        "type": "string",
-        "description": "Qualité de vie",
-        "value": "",
-        "quality": 0,
-        "remarque": "Évaluer et décrire l'impact global sur la qualité de vie perçue.",
-        "value_history": []
-      },
-      "examen_somatique_poids": {
-        "type": "number",
-        "description": "Poids en kg",
-        "value": null,
-        "quality": 0,
-        "remarque": "Noter le poids mesuré à l'examen.",
-        "value_history": []
-      },
-      "examen_somatique_taille": {
-        "type": "number",
-        "description": "Taille en mètres",
-        "value": null,
-        "quality": 0,
-        "remarque": "Noter la taille mesurée à l'examen.",
-        "value_history": []
-      },
-      "examen_somatique_imc": {
-        "type": "number",
-        "description": "IMC",
-        "value": null,
-        "quality": 0,
-        "remarque": "Calculer et noter l'IMC à partir du poids et de la taille mesurés.",
-        "value_history": []
-      },
-      "examen_somatique_tension_arterielle": {
-        "type": "string",
-        "description": "Tension Artérielle en mmHg",
-        "value": "",
-        "quality": 0,
-        "remarque": "Mesurer et noter la tension artérielle.",
-        "value_history": []
-      },
-      "examen_somatique_frequence_cardiaque": {
-        "type": "number",
-        "description": "Fréquence Cardiaque en bpm",
-        "value": null,
-        "quality": 0,
-        "remarque": "Mesurer et noter la fréquence cardiaque.",
-        "value_history": []
-      },
-      "examen_somatique_temperature": {
-        "type": "number",
-        "description": "Température en °C",
-        "value": null,
-        "quality": 0,
-        "remarque": "Mesurer et noter la température.",
-        "value_history": []
-      },
-      "examen_somatique_signes_denutrition_amenorrhee": {
-        "type": "checkbox",
-        "description": "Aménorrhée (si femme pubère)",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si aménorrhée chez la femme pubère.",
-        "value_history": []
-      },
-      "examen_somatique_signes_denutrition_bradycardie": {
-        "type": "checkbox",
-        "description": "Bradycardie",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si bradycardie.",
-        "value_history": []
-      },
-      "examen_somatique_signes_denutrition_lanugo": {
-        "type": "checkbox",
-        "description": "Lanugo",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si présence de lanugo.",
-        "value_history": []
-      },
-      "examen_somatique_signes_denutrition_peau_seche": {
-        "type": "checkbox",
-        "description": "Peau sèche",
-        "value": false,
-        "quality": 0,
-        "remarque": "Cocher si peau sèche.",
-        "value_history": []
-      },
-      "examen_somatique_signes_denutrition_autres_signes_denutrition": {
-        "type": "string",
-        "description": "Autres signes de dénutrition",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire d'autres signes cliniques de dénutrition.",
-        "value_history": []
-      },
-      "examen_somatique_complications_medicales": {
-        "type": "string",
-        "description": "Complications médicales (si connues)",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister les complications médicales connues et avérées.",
-        "value_history": []
-      },
-      "antecedents_medicaux_psychiatriques_antecedents_medicaux_personnels": {
-        "type": "string",
-        "description": "Antécédents médicaux personnels",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister les antécédents médicaux significatifs.",
-        "value_history": []
-      },
-      "antecedents_medicaux_psychiatriques_traitements_medicaux_en_cours": {
-        "type": "string",
-        "description": "Traitements médicaux en cours",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister les traitements médicamenteux en cours.",
-        "value_history": []
-      },
-      "antecedents_medicaux_psychiatriques_antecedents_psychiatriques_personnels": {
-        "type": "string",
-        "description": "Antécédents psychiatriques personnels",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister les antécédents psychiatriques personnels.",
-        "value_history": []
-      },
-      "antecedents_medicaux_psychiatriques_antecedents_psychiatriques_familiaux": {
-        "type": "string",
-        "description": "Antécédents psychiatriques familiaux (TCA, Humeur, Anxiété...)",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister les antécédents psychiatriques familiaux, en particulier TCA, troubles de l'humeur, anxieux.",
-        "value_history": []
-      },
-      "contexte_social_familial_structure_familiale": {
-        "type": "string",
-        "description": "Structure familiale",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire la composition de la famille (parents, fratrie, etc.).",
-        "value_history": []
-      },
-      "contexte_social_familial_relations_familiales": {
-        "type": "string",
-        "description": "Relations familiales",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire la qualité des relations familiales perçues.",
-        "value_history": []
-      },
-      "contexte_social_familial_soutien_parental": {
-        "type": "string",
-        "description": "Soutien parental",
-        "value": "",
-        "quality": 0,
-        "remarque": "Évaluer le niveau de soutien parental perçu et réel.",
-        "value_history": []
-      },
-      "contexte_social_familial_style_educatif_percu": {
-        "type": "string",
-        "description": "Style éducatif perçu",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire le style éducatif parental perçu.",
-        "value_history": []
-      },
-      "contexte_social_familial_conflits_familiaux": {
-        "type": "string",
-        "description": "Conflits familiaux (alimentation ?)",
-        "value": "",
-        "quality": 0,
-        "remarque": "Décrire la présence de conflits familiaux, notamment autour de l'alimentation.",
-        "value_history": []
-      },
-      "contexte_social_familial_soutien_social": {
-        "type": "string",
-        "description": "Soutien social (amis, etc.)",
-        "value": "",
-        "quality": 0,
-        "remarque": "Évaluer le niveau de soutien social extérieur à la famille (amis, etc.).",
-        "value_history": []
-      },
-      "contexte_social_familial_isolement_social": {
-        "type": "boolean",
-        "description": "Isolement social",
-        "value": null,
-        "quality": 0,
-        "remarque": "Confirmer ou infirmer l'isolement social.",
-        "value_history": []
-      },
-      "contexte_social_familial_evenements_vie_stressants": {
-        "type": "string",
-        "description": "Événements de vie stressants récents",
-        "value": "",
-        "quality": 0,
-        "remarque": "Lister les événements de vie stressants récents et leur impact perçu.",
-        "value_history": []
-      },
-      "motivation_changement_insight_motivation_changement_alimentaire": {
-        "type": "string_dropdown",
-        "description": "Motivation au changement alimentaire",
-        "value": null,
-        "quality": 0,
-        "remarque": "Évaluer le niveau de motivation au changement alimentaire.",
-        "options": ["Forte", "Moyenne", "Faible", "Absente"],
-        "value_history": []
-      },
-      "motivation_changement_insight_conscience_trouble_consequences": {
-        "type": "string_dropdown",
-        "description": "Conscience du trouble et des conséquences",
-        "value": null,
-        "quality": 0,
-        "remarque": "Évaluer le niveau de conscience du trouble et de ses conséquences.",
-        "options": ["Bonne", "Partielle", "Faible", "Déni"],
-        "value_history": []
-      },
-      "motivation_changement_insight_adhesion_prise_en_charge": {
-        "type": "string_dropdown",
-        "description": "Adhésion à une prise en charge",
-        "value": null,
-        "quality": 0,
-        "remarque": "Évaluer le niveau d'adhésion à une prise en charge thérapeutique.",
-        "options": ["Favorable", "Hésitante", "Réfractaire"],
-        "value_history": []
-      },
-      "evaluation_risque_medical_psychiatrique": {
-        "type": "string",
-        "description": "Évaluation du Risque Médical et Psychiatrique",
-        "indication": "Évaluer le risque médical immédiat (dénutrition sévère, instabilité hémodynamique, troubles hydro-électrolytiques, risque suicidaire, comorbidités psychiatriques sévères).",
-        "value": "",
-        "quality": 0,
-        "remarque": "Identifier les critères d'hospitalisation somatique et/ou psychiatrique si nécessaire.",
-        "value_history": []
-      },
-      "impression_diagnostique_initiale": {
-        "type": "string",
-        "description": "Impression Diagnostique Initiale",
-        "indication": "Formuler une impression diagnostique initiale (anorexie mentale restrictive ? boulimique ? forme atypique ? autre trouble alimentaire ?).",
-        "value": "",
-        "quality": 0,
-        "remarque": "Diagnostic provisoire à confirmer avec les examens complémentaires et l'évolution.",
-        "value_history": []
-      },
-      "proposition_plan_traitement_initial": {
-        "type": "string",
-        "description": "Proposition de Plan de Traitement Initial",
-        "indication": "Proposer un plan de traitement initial : examens complémentaires (bilan biologique, ECG), orientation thérapeutique (hospitalisation ? ambulatoire ? psychothérapie individuelle ? familiale ? groupe ?),  prise en charge diététique, suivi médical.",
-        "value": "",
-        "quality": 0,
-        "remarque": "Plan de prise en charge personnalisé et adapté au niveau de risque et aux besoins du patient.",
-        "value_history": []
-      },
-      "remarques_notes_complementaires": {
-        "type": "string",
-        "description": "Remarques / Notes Complémentaires",
-        "value": "",
-        "quality": 0,
-        "remarque": "Ajouter toute remarque ou note complémentaire jugée utile.",
-        "value_history": []
-      }
+  "creation_timestamp": "2024-01-04_15-45-00",
+  "questionnaire_id": "grille_consultation_anorexie_boulimie_json_flat",
+  "title": "Grille d'Exploration Initiale du Trouble Anorexique Boulimique (JSON Flat)",
+  "description": "Grille standardisée pour l'exploration initiale du trouble anorexique boulimique, basée sur le modèle IACAPAP et les recommandations cliniques, au format JSON (structure plate sans imbrication).",
+  "icon": "",
+  "questionnaire_type": "grille_consultation_anorexie_boulimie",
+  "questionnaire_type_version": "2024-01-04_15-45-00_flat",
+  "llm_prompt": "Assistant médical : Grille de consultation d'exploration initiale du trouble anorexique boulimique (JSON Flat). Compléter les champs value, quality, review.",
+  "questions": {
+    "identification_patient": {
+      "type": "string",
+      "description": "Identification du patient",
+      "prompt": "Nom, prénom, date de naissance, sexe, âge, niveau scolaire/professionnel. Vérifier l'identité et recueillir les informations démographiques de base.",
+      "exemple": "Mlle Jeanne Dupont, née le 15/03/2007, sexe féminin, 16 ans, Lycée, classe de première.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "motif_consultation": {
+      "type": "string",
+      "description": "Motif de consultation",
+      "prompt": "Raison de la consultation actuelle, qui a initié la démarche (patient, famille, médecin généraliste, autre). Préciser l'origine de la demande et les préoccupations initiales.",
+      "exemple": "Consultation à la demande de la mère, inquiète de la perte de poids et du comportement alimentaire de sa fille.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "histoire_trouble_alimentaire_debut_symptomes": {
+      "type": "string",
+      "description": "Début des symptômes (âge, circonstances)",
+      "value": "",
+      "quality": 0,
+      "remarque": "Préciser l'âge d'apparition des premiers symptômes et les facteurs contextuels associés.",
+      "value_history": []
+    },
+    "histoire_trouble_alimentaire_evolution_symptomes": {
+      "type": "string",
+      "description": "Évolution dans le temps (phases de restriction, crises, purges)",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire l'évolution chronologique des différents symptômes et leur fluctuation.",
+      "value_history": []
+    },
+    "histoire_trouble_alimentaire_traitements_anterieurs": {
+      "type": "string",
+      "description": "Traitements antérieurs et efficacité",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister les traitements déjà entrepris, leur durée et leur impact perçu.",
+      "value_history": []
+    },
+    "poids_taille_imc_poids_habituel": {
+      "type": "number",
+      "description": "Poids habituel (avant trouble) en kg",
+      "value": null,
+      "quality": 0,
+      "remarque": "Noter le poids de référence avant le début des restrictions.",
+      "value_history": []
+    },
+    "poids_taille_imc_poids_plus_eleve": {
+      "type": "number",
+      "description": "Poids le plus élevé atteint en kg",
+      "value": null,
+      "quality": 0,
+      "remarque": "Si pertinent, noter le poids maximal atteint.",
+      "value_history": []
+    },
+    "poids_taille_imc_poids_plus_bas": {
+      "type": "number",
+      "description": "Poids le plus bas atteint en kg",
+      "value": null,
+      "quality": 0,
+      "remarque": "Noter le poids minimal atteint lors de l'épisode de TCA.",
+      "value_history": []
+    },
+    "poids_taille_imc_poids_actuel": {
+      "type": "number",
+      "description": "Poids actuel en kg",
+      "value": null,
+      "quality": 0,
+      "remarque": "Mesurer et noter le poids lors de la consultation.",
+      "value_history": []
+    },
+    "poids_taille_imc_taille_actuelle": {
+      "type": "number",
+      "description": "Taille actuelle en mètres",
+      "value": null,
+      "quality": 0,
+      "remarque": "Mesurer et noter la taille lors de la consultation.",
+      "value_history": []
+    },
+    "poids_taille_imc_imc_habituel": {
+      "type": "number",
+      "description": "IMC habituel",
+      "value": null,
+      "quality": 0,
+      "remarque": "Calculer ou estimer l'IMC habituel.",
+      "value_history": []
+    },
+    "poids_taille_imc_imc_actuel": {
+      "type": "number",
+      "description": "IMC actuel",
+      "value": null,
+      "quality": 0,
+      "remarque": "Calculer l'IMC actuel à partir du poids et de la taille mesurés.",
+      "value_history": []
+    },
+    "poids_taille_imc_courbe_poids": {
+      "type": "attachment",
+      "description": "Courbe de poids (si disponible)",
+      "value": null,
+      "quality": 0,
+      "remarque": "Joindre la courbe de croissance staturo-pondérale si disponible.",
+      "value_history": []
+    },
+    "restriction_alimentaire_aliments_evites": {
+      "type": "string",
+      "description": "Aliments évités",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister précisément les catégories d'aliments ou aliments spécifiques évités.",
+      "value_history": []
+    },
+    "restriction_alimentaire_quantites_rythme_repas": {
+      "type": "string",
+      "description": "Quantités consommées / rythme des repas",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire les quantités ingérées par repas et la répartition des repas sur la journée.",
+      "value_history": []
+    },
+    "restriction_alimentaire_rituels_alimentaires": {
+      "type": "string",
+      "description": "Rituels alimentaires",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire les éventuels rituels ou comportements particuliers autour des repas.",
+      "value_history": []
+    },
+    "restriction_alimentaire_regimes_jeune": {
+      "type": "string",
+      "description": "Régimes restrictifs / jeûne",
+      "value": "",
+      "quality": 0,
+      "remarque": "Préciser si la personne suit des régimes ou pratique le jeûne.",
+      "value_history": []
+    },
+    "restriction_alimentaire_motivations_restrictions": {
+      "type": "string",
+      "description": "Motivations des restrictions (peur de grossir, contrôle, etc.)",
+      "value": "",
+      "quality": 0,
+      "remarque": "Explorer les raisons et motivations conscientes et inconscientes des restrictions.",
+      "value_history": []
+    },
+    "crises_boulimie_presence_crises": {
+      "type": "boolean",
+      "description": "Présence de crises de boulimie ?",
+      "value": null,
+      "quality": 0,
+      "remarque": "Confirmer ou infirmer la présence de crises de boulimie.",
+      "value_history": []
+    },
+    "crises_boulimie_frequence_crises": {
+      "type": "string",
+      "description": "Fréquence des crises",
+      "value": "",
+      "quality": 0,
+      "remarque": "Préciser la fréquence des crises (par jour, par semaine, par mois).",
+      "value_history": []
+    },
+    "crises_boulimie_contenu_crises": {
+      "type": "string",
+      "description": "Contenu des crises",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire les types d'aliments consommés pendant les crises.",
+      "value_history": []
+    },
+    "crises_boulimie_circonstances_crises": {
+      "type": "string",
+      "description": "Circonstances des crises",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire le contexte et les déclencheurs des crises.",
+      "value_history": []
+    },
+    "crises_boulimie_perte_controle_crises": {
+      "type": "boolean",
+      "description": "Sentiment de perte de contrôle pendant les crises ?",
+      "value": null,
+      "quality": 0,
+      "remarque": "Évaluer le vécu subjectif de perte de contrôle pendant les crises.",
+      "value_history": []
+    },
+    "crises_boulimie_definition_crise_boulimie": {
+      "type": "boolean",
+      "description": "Correspondent à la définition de crise de boulimie (quantité excessive + perte de contrôle) ?",
+      "value": null,
+      "quality": 0,
+      "remarque": "Valider si les épisodes rapportés correspondent à la définition de la crise boulimique.",
+      "value_history": []
+    },
+    "comportements_purgatoires_vomissements_provoques": {
+      "type": "checkbox",
+      "description": "Vomissements provoqués",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si présence de vomissements provoqués et préciser la fréquence.",
+      "value_history": []
+    },
+    "comportements_purgatoires_vomissements_provoques_frequence": {
+      "type": "string",
+      "description": "Fréquence des vomissements provoqués",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "comportements_purgatoires_laxatifs": {
+      "type": "checkbox",
+      "description": "Laxatifs",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si utilisation de laxatifs et préciser la fréquence.",
+      "value_history": []
+    },
+    "comportements_purgatoires_laxatifs_frequence": {
+      "type": "string",
+      "description": "Fréquence d'utilisation des laxatifs",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "comportements_purgatoires_diuretiques": {
+      "type": "checkbox",
+      "description": "Diurétiques",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si utilisation de diurétiques et préciser la fréquence.",
+      "value_history": []
+    },
+    "comportements_purgatoires_diuretiques_frequence": {
+      "type": "string",
+      "description": "Fréquence d'utilisation des diurétiques",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "comportements_purgatoires_lavements": {
+      "type": "checkbox",
+      "description": "Lavements",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si utilisation de lavements et préciser la fréquence.",
+      "value_history": []
+    },
+    "comportements_purgatoires_lavements_frequence": {
+      "type": "string",
+      "description": "Fréquence d'utilisation des lavements",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "comportements_purgatoires_exercice_excessif": {
+      "type": "checkbox",
+      "description": "Exercice physique excessif",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si pratique d'exercice physique excessif et décrire.",
+      "value_history": []
+    },
+    "comportements_purgatoires_exercice_excessif_description_exercice": {
+      "type": "string",
+      "description": "Description de l'exercice physique excessif",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "comportements_purgatoires_jeune_compensatoire": {
+      "type": "checkbox",
+      "description": "Jeûne compensatoire",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si pratique de jeûne compensatoire et préciser la fréquence.",
+      "value_history": []
+    },
+    "comportements_purgatoires_jeune_compensatoire_frequence": {
+      "type": "string",
+      "description": "Fréquence du jeûne compensatoire",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "comportements_purgatoires_autres_purgatoires": {
+      "type": "string",
+      "description": "Autres comportements purgatoires",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire d'autres comportements purgatoires éventuels.",
+      "value_history": []
+    },
+    "perception_image_corporelle_insatisfaction_corporelle": {
+      "type": "checkbox",
+      "description": "Insatisfaction corporelle",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si présence d'insatisfaction corporelle et décrire.",
+      "value_history": []
+    },
+    "perception_image_corporelle_insatisfaction_corporelle_description_insatisfaction": {
+      "type": "string",
+      "description": "Description de l'insatisfaction corporelle",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "perception_image_corporelle_distorsion_image_corporelle": {
+      "type": "checkbox",
+      "description": "Distorsion de l'image corporelle",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si distorsion de l'image corporelle et décrire.",
+      "value_history": []
+    },
+    "perception_image_corporelle_distorsion_image_corporelle_description_distorsion": {
+      "type": "string",
+      "description": "Description de la distorsion de l'image corporelle",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "perception_image_corporelle_estime_de_soi_image_corporelle": {
+      "type": "checkbox",
+      "description": "Influence de l'image corporelle sur l'estime de soi",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si influence de l'image corporelle sur l'estime de soi et décrire.",
+      "value_history": []
+    },
+    "perception_image_corporelle_estime_de_soi_image_corporelle_description_estime": {
+      "type": "string",
+      "description": "Description de l'influence de l'image corporelle sur l'estime de soi",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "perception_image_corporelle_peur_grossir": {
+      "type": "checkbox",
+      "description": "Peur de grossir",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si peur de grossir et préciser l'intensité.",
+      "value_history": []
+    },
+    "perception_image_corporelle_peur_grossir_intensite_peur_grossir": {
+      "type": "string",
+      "description": "Intensité de la peur de grossir",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "perception_image_corporelle_ideal_minceur": {
+      "type": "checkbox",
+      "description": "Intégration de l'idéal de minceur",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si intégration de l'idéal de minceur et décrire.",
+      "value_history": []
+    },
+    "perception_image_corporelle_ideal_minceur_description_ideal_minceur": {
+      "type": "string",
+      "description": "Description de l'intégration de l'idéal de minceur",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "perception_image_corporelle_verifications_corporelles": {
+      "type": "checkbox",
+      "description": "Vérifications corporelles (miroir, balance, etc.)",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si présence de vérifications corporelles et décrire.",
+      "value_history": []
+    },
+    "perception_image_corporelle_verifications_corporelles_description_verifications": {
+      "type": "string",
+      "description": "Description des vérifications corporelles",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_humeur_depressive": {
+      "type": "checkbox",
+      "description": "Humeur dépressive",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si humeur dépressive et décrire.",
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_humeur_depressive_description_humeur_depressive": {
+      "type": "string",
+      "description": "Description de l'humeur dépressive",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_perte_interet": {
+      "type": "boolean",
+      "description": "Perte d'intérêt",
+      "value": null,
+      "quality": 0,
+      "remarque": "Cocher si perte d'intérêt.",
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_culpabilite": {
+      "type": "boolean",
+      "description": "Culpabilité",
+      "value": null,
+      "quality": 0,
+      "remarque": "Cocher si culpabilité.",
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_idees_noires_suicidaires": {
+      "type": "checkbox",
+      "description": "Idées noires/suicidaires",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si idées noires/suicidaires et préciser.",
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_idees_noires_suicidaires_precision_idees_noires": {
+      "type": "string",
+      "description": "Précision sur les idées noires/suicidaires",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_anxiete_generalisee": {
+      "type": "checkbox",
+      "description": "Anxiété généralisée",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si anxiété généralisée et décrire.",
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_anxiete_generalisee_description_anxiete_generalisee": {
+      "type": "string",
+      "description": "Description de l'anxiété généralisée",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_toc": {
+      "type": "checkbox",
+      "description": "TOC",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si TOC et décrire (rituels alimentaires ?).",
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_toc_description_toc": {
+      "type": "string",
+      "description": "Description des TOC (rituels alimentaires ?)",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_anxiete_sociale": {
+      "type": "checkbox",
+      "description": "Anxiété sociale",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si anxiété sociale et décrire.",
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_anxiete_sociale_description_anxiete_sociale": {
+      "type": "string",
+      "description": "Description de l'anxiété sociale",
+      "value": "",
+      "quality": 0,
+      "value_history": []
+    },
+    "symptomes_associes_humeur_anxiete_autres_symptomes_associes": {
+      "type": "string",
+      "description": "Autres symptômes associés",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire d'autres symptômes associés (humeur, anxiété ou autres).",
+      "value_history": []
+    },
+    "repercussions_fonctionnelles_scolaires_professionnelles": {
+      "type": "string",
+      "description": "Scolaires / Professionnelles",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire les répercussions sur le fonctionnement scolaire ou professionnel.",
+      "value_history": []
+    },
+    "repercussions_fonctionnelles_sociales": {
+      "type": "string",
+      "description": "Sociales",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire les répercussions sur le fonctionnement social et les relations amicales.",
+      "value_history": []
+    },
+    "repercussions_fonctionnelles_familiales": {
+      "type": "string",
+      "description": "Familiales",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire les répercussions sur le fonctionnement familial et les relations familiales.",
+      "value_history": []
+    },
+    "repercussions_fonctionnelles_loisirs_activites": {
+      "type": "string",
+      "description": "Loisirs / Activités",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire les répercussions sur les loisirs et activités habituelles.",
+      "value_history": []
+    },
+    "repercussions_fonctionnelles_qualite_de_vie": {
+      "type": "string",
+      "description": "Qualité de vie",
+      "value": "",
+      "quality": 0,
+      "remarque": "Évaluer et décrire l'impact global sur la qualité de vie perçue.",
+      "value_history": []
+    },
+    "examen_somatique_poids": {
+      "type": "number",
+      "description": "Poids en kg",
+      "value": null,
+      "quality": 0,
+      "remarque": "Noter le poids mesuré à l'examen.",
+      "value_history": []
+    },
+    "examen_somatique_taille": {
+      "type": "number",
+      "description": "Taille en mètres",
+      "value": null,
+      "quality": 0,
+      "remarque": "Noter la taille mesurée à l'examen.",
+      "value_history": []
+    },
+    "examen_somatique_imc": {
+      "type": "number",
+      "description": "IMC",
+      "value": null,
+      "quality": 0,
+      "remarque": "Calculer et noter l'IMC à partir du poids et de la taille mesurés.",
+      "value_history": []
+    },
+    "examen_somatique_tension_arterielle": {
+      "type": "string",
+      "description": "Tension Artérielle en mmHg",
+      "value": "",
+      "quality": 0,
+      "remarque": "Mesurer et noter la tension artérielle.",
+      "value_history": []
+    },
+    "examen_somatique_frequence_cardiaque": {
+      "type": "number",
+      "description": "Fréquence Cardiaque en bpm",
+      "value": null,
+      "quality": 0,
+      "remarque": "Mesurer et noter la fréquence cardiaque.",
+      "value_history": []
+    },
+    "examen_somatique_temperature": {
+      "type": "number",
+      "description": "Température en °C",
+      "value": null,
+      "quality": 0,
+      "remarque": "Mesurer et noter la température.",
+      "value_history": []
+    },
+    "examen_somatique_signes_denutrition_amenorrhee": {
+      "type": "checkbox",
+      "description": "Aménorrhée (si femme pubère)",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si aménorrhée chez la femme pubère.",
+      "value_history": []
+    },
+    "examen_somatique_signes_denutrition_bradycardie": {
+      "type": "checkbox",
+      "description": "Bradycardie",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si bradycardie.",
+      "value_history": []
+    },
+    "examen_somatique_signes_denutrition_lanugo": {
+      "type": "checkbox",
+      "description": "Lanugo",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si présence de lanugo.",
+      "value_history": []
+    },
+    "examen_somatique_signes_denutrition_peau_seche": {
+      "type": "checkbox",
+      "description": "Peau sèche",
+      "value": false,
+      "quality": 0,
+      "remarque": "Cocher si peau sèche.",
+      "value_history": []
+    },
+    "examen_somatique_signes_denutrition_autres_signes_denutrition": {
+      "type": "string",
+      "description": "Autres signes de dénutrition",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire d'autres signes cliniques de dénutrition.",
+      "value_history": []
+    },
+    "examen_somatique_complications_medicales": {
+      "type": "string",
+      "description": "Complications médicales (si connues)",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister les complications médicales connues et avérées.",
+      "value_history": []
+    },
+    "antecedents_medicaux_psychiatriques_antecedents_medicaux_personnels": {
+      "type": "string",
+      "description": "Antécédents médicaux personnels",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister les antécédents médicaux significatifs.",
+      "value_history": []
+    },
+    "antecedents_medicaux_psychiatriques_traitements_medicaux_en_cours": {
+      "type": "string",
+      "description": "Traitements médicaux en cours",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister les traitements médicamenteux en cours.",
+      "value_history": []
+    },
+    "antecedents_medicaux_psychiatriques_antecedents_psychiatriques_personnels": {
+      "type": "string",
+      "description": "Antécédents psychiatriques personnels",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister les antécédents psychiatriques personnels.",
+      "value_history": []
+    },
+    "antecedents_medicaux_psychiatriques_antecedents_psychiatriques_familiaux": {
+      "type": "string",
+      "description": "Antécédents psychiatriques familiaux (TCA, Humeur, Anxiété...)",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister les antécédents psychiatriques familiaux, en particulier TCA, troubles de l'humeur, anxieux.",
+      "value_history": []
+    },
+    "contexte_social_familial_structure_familiale": {
+      "type": "string",
+      "description": "Structure familiale",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire la composition de la famille (parents, fratrie, etc.).",
+      "value_history": []
+    },
+    "contexte_social_familial_relations_familiales": {
+      "type": "string",
+      "description": "Relations familiales",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire la qualité des relations familiales perçues.",
+      "value_history": []
+    },
+    "contexte_social_familial_soutien_parental": {
+      "type": "string",
+      "description": "Soutien parental",
+      "value": "",
+      "quality": 0,
+      "remarque": "Évaluer le niveau de soutien parental perçu et réel.",
+      "value_history": []
+    },
+    "contexte_social_familial_style_educatif_percu": {
+      "type": "string",
+      "description": "Style éducatif perçu",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire le style éducatif parental perçu.",
+      "value_history": []
+    },
+    "contexte_social_familial_conflits_familiaux": {
+      "type": "string",
+      "description": "Conflits familiaux (alimentation ?)",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire la présence de conflits familiaux, notamment autour de l'alimentation.",
+      "value_history": []
+    },
+    "contexte_social_familial_soutien_social": {
+      "type": "string",
+      "description": "Soutien social (amis, etc.)",
+      "value": "",
+      "quality": 0,
+      "remarque": "Évaluer le niveau de soutien social extérieur à la famille (amis, etc.).",
+      "value_history": []
+    },
+    "contexte_social_familial_isolement_social": {
+      "type": "boolean",
+      "description": "Isolement social",
+      "value": null,
+      "quality": 0,
+      "remarque": "Confirmer ou infirmer l'isolement social.",
+      "value_history": []
+    },
+    "contexte_social_familial_evenements_vie_stressants": {
+      "type": "string",
+      "description": "Événements de vie stressants récents",
+      "value": "",
+      "quality": 0,
+      "remarque": "Lister les événements de vie stressants récents et leur impact perçu.",
+      "value_history": []
+    },
+    "motivation_changement_insight_motivation_changement_alimentaire": {
+      "type": "string_dropdown",
+      "description": "Motivation au changement alimentaire",
+      "value": null,
+      "quality": 0,
+      "remarque": "Évaluer le niveau de motivation au changement alimentaire.",
+      "options": [
+        "Forte",
+        "Moyenne",
+        "Faible",
+        "Absente"
+      ],
+      "value_history": []
+    },
+    "motivation_changement_insight_conscience_trouble_consequences": {
+      "type": "string_dropdown",
+      "description": "Conscience du trouble et des conséquences",
+      "value": null,
+      "quality": 0,
+      "remarque": "Évaluer le niveau de conscience du trouble et de ses conséquences.",
+      "options": [
+        "Bonne",
+        "Partielle",
+        "Faible",
+        "Déni"
+      ],
+      "value_history": []
+    },
+    "motivation_changement_insight_adhesion_prise_en_charge": {
+      "type": "string_dropdown",
+      "description": "Adhésion à une prise en charge",
+      "value": null,
+      "quality": 0,
+      "remarque": "Évaluer le niveau d'adhésion à une prise en charge thérapeutique.",
+      "options": [
+        "Favorable",
+        "Hésitante",
+        "Réfractaire"
+      ],
+      "value_history": []
+    },
+    "evaluation_risque_medical_psychiatrique": {
+      "type": "string",
+      "description": "Évaluation du Risque Médical et Psychiatrique",
+      "indication": "Évaluer le risque médical immédiat (dénutrition sévère, instabilité hémodynamique, troubles hydro-électrolytiques, risque suicidaire, comorbidités psychiatriques sévères).",
+      "value": "",
+      "quality": 0,
+      "remarque": "Identifier les critères d'hospitalisation somatique et/ou psychiatrique si nécessaire.",
+      "value_history": []
+    },
+    "impression_diagnostique_initiale": {
+      "type": "string",
+      "description": "Impression Diagnostique Initiale",
+      "indication": "Formuler une impression diagnostique initiale (anorexie mentale restrictive ? boulimique ? forme atypique ? autre trouble alimentaire ?).",
+      "value": "",
+      "quality": 0,
+      "remarque": "Diagnostic provisoire à confirmer avec les examens complémentaires et l'évolution.",
+      "value_history": []
+    },
+    "proposition_plan_traitement_initial": {
+      "type": "string",
+      "description": "Proposition de Plan de Traitement Initial",
+      "indication": "Proposer un plan de traitement initial : examens complémentaires (bilan biologique, ECG), orientation thérapeutique (hospitalisation ? ambulatoire ? psychothérapie individuelle ? familiale ? groupe ?),  prise en charge diététique, suivi médical.",
+      "value": "",
+      "quality": 0,
+      "remarque": "Plan de prise en charge personnalisé et adapté au niveau de risque et aux besoins du patient.",
+      "value_history": []
+    },
+    "remarques_notes_complementaires": {
+      "type": "string",
+      "description": "Remarques / Notes Complémentaires",
+      "value": "",
+      "quality": 0,
+      "remarque": "Ajouter toute remarque ou note complémentaire jugée utile.",
+      "value_history": []
     }
-  }
+  },
+  "authors": [],
+  "tags": [
+    "anorexie"
+  ],
+  "updated_at": "2025-05-15T14:32:41.261Z"
+}
