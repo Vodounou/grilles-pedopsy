@@ -1,7 +1,7 @@
 {
   "uid": "38e4b3f3-98bb-41d4-ad07-8f037f92c6d4",
   "title": "Modele_-_Grille_de_test",
-  "description": " Ceci est une grille de test. n'est ce pas ? ",
+  "description": " Ceci est une grille de test.",
   "prompt": " Tu es un LLM qui s'occupe d'analyser dans le cadre d'un logiciel d'analyse différents documents. Ceci est une grille de test. Je te demande de me renvoyer une réponse au format JSON correctement formaté, éventuellement avec du markdown et un bon échappement des caractères.",
   "questions": [
     {
@@ -23,5 +23,5 @@
   "tags": [
     "test"
   ],
-  "updated_at": "2025-05-15T13:24:25.061Z"
+  "updated_at": "2025-05-15T13:27:21.050Z"
 }
