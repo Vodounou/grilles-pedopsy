@@ -18,5 +18,10 @@
   ],
   "timestamp": 1746972122832,
   "questionnaire_id": "Modele_-_Grille_de_test",
-  "icon": ""
+  "icon": "",
+  "authors": [],
+  "tags": [
+    "test"
+  ],
+  "updated_at": "2025-05-15T13:13:41.455Z"
 }
