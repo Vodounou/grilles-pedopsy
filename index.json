@@ -7,6 +7,20 @@
     "url": "ModelCourrier_patient_medical_simplifie.json"
   },
   {
+    "id": "Modele_-_Grille_de_test",
+    "title": "Modele_-_Grille_de_test",
+    "description": " Ceci est une grille de test.",
+    "icon": "",
+    "url": "Modele_-_Grille_de_test.json"
+  },
+  {
+    "id": "analyse_systemique_entretien_familial",
+    "title": "Analyse Systémique d'Entretien Familial",
+    "description": "Grille standardisée pour l'analyse systémique d'un entretien thérapeutique familial dans le cadre d'une cothérapie ou supervision",
+    "icon": "🔄",
+    "url": "analyse_systemique_entretien_familial.json"
+  },
+  {
     "id": "grille_consultation_minimale",
     "title": "Grille de Consultation Médicale Minimale",
     "description": "Grille de base pour la consultation médicale initiale",
