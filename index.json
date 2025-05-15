@@ -21,6 +21,13 @@
     "url": "analyse_systemique_entretien_familial.json"
   },
   {
+    "id": "analyse_systemique_entretien_familial.json",
+    "title": "Analyse Systémique d'Entretien Familial",
+    "description": "Grille standardisée pour l'analyse systémique d'un entretien thérapeutique familial dans le cadre d'une cothérapie ou supervision",
+    "icon": "🔄",
+    "url": "analyse_systemique_entretien_familial.json.json"
+  },
+  {
     "id": "grille_consultation_minimale",
     "title": "Grille de Consultation Médicale Minimale",
     "description": "Grille de base pour la consultation médicale initiale",
