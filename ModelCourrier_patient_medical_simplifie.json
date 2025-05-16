@@ -1,6 +1,6 @@
 {
   "uid": "5de8d517-7294-48b6-8bf7-a54ee714e0bc",
-  "title": "ModelCourrier_patient_medical_simplifie",
+  "title": "Courrier_patient_medical_simplifie",
   "description": "Grille d'analyse pour les courriers médicaux simplifiés",
   "prompt": "Analyse ce courrier médical et réponds aux questions suivantes",
   "questions": [
@@ -51,5 +51,8 @@
   ],
   "timestamp": 1746542344528,
   "questionnaire_id": "ModelCourrier_patient_medical_simplifie",
-  "icon": ""
+  "icon": "",
+  "authors": [],
+  "tags": [],
+  "updated_at": "2025-05-16T09:57:43.754Z"
 }
