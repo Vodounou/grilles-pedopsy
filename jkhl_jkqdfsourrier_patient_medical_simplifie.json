@@ -1,6 +1,6 @@
 {
   "uid": "dacf9c04-b7a9-49a4-adf4-058ccf5724ed",
-  "title": "jkhl jkqdfsourrier_patient_medical_simplifie",
+  "title": "Courrier_patient_medical_simplifie",
   "description": "Grille d'analyse pour les courriers médicaux simplifiés",
   "prompt": "Analyse ce courrier médical et réponds aux questions suivantes",
   "questions": [
@@ -51,5 +51,8 @@
   ],
   "timestamp": 1746542344528,
   "questionnaire_id": "jkhl_jkqdfsourrier_patient_medical_simplifie",
-  "icon": "📋"
+  "icon": "📋",
+  "authors": [],
+  "tags": [],
+  "updated_at": "2025-05-16T09:57:29.370Z"
 }
