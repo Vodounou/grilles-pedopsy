@@ -1,6 +1,6 @@
 {
   "grid_id": "Modele_-_Grille_de_test.json",
-  "average_rating": 4.5,
+  "average_rating": 4,
   "evaluations": [
     {
       "author": "xwc<wccxw",
@@ -13,7 +13,13 @@
       "date": "2025-05-19T15:52:25.718Z",
       "note": "xwcxwc",
       "rating": 4
+    },
+    {
+      "author": "sdfdsf",
+      "date": "2025-05-19T15:54:51.413Z",
+      "note": "dsfsdfdsf",
+      "rating": 3
     }
   ],
-  "updated_at": "2025-05-19T15:52:25.718Z"
+  "updated_at": "2025-05-19T15:54:51.414Z"
 }
