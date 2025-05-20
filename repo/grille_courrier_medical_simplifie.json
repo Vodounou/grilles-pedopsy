@@ -1,0 +1,91 @@
+{
+  "creation_timestamp": "",
+  "questionnaire_id": "grille_courrier_medical_simplifie",
+  "title": "Synthèse d'Entretien Médical - Courrier Simplifié",
+  "description": "Grille simplifiée pour la rédaction d'un courrier de synthèse à l'intention du patient suite à une consultation médicale",
+  "icon": "📝",
+  "questionnaire_type": "courrier_medical_simplifie",
+  "questionnaire_type_version": "2025-04-29_17-26-46",
+  "llm_prompt": "Assistant médical : Analyse de la transcription d'un entretien médical et génération d'un courrier de synthèse concis à l'intention du patient. Complète value, quality, review en utilisant le format Markdown.",
+  "questions": {
+    "en_tete": {
+      "description": "En-tête du courrier",
+      "prompt": "Renseigner les informations d'en-tête du courrier (date, médecin, patient).",
+      "exemple": "**Dr Pierre Jarlan**  \nPédopsychiatre  \n15 rue des Lilas, 75016 Paris  \n\n**Consultation du :** 29 avril 2025  \n**Patient :** Lucas Martin (né le 15/05/2014)",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "introduction": {
+      "type": "string",
+      "description": "Introduction simple",
+      "prompt": "Rédiger une introduction brève et directe, sans formulations excessivement formelles.",
+      "exemple": "Bonjour Lucas,\n\nCe courrier résume notre consultation d'aujourd'hui et les décisions que nous avons prises ensemble.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "motif_consultation": {
+      "type": "string",
+      "description": "Motif de consultation",
+      "prompt": "Résumer brièvement le motif principal de la consultation.",
+      "exemple": "## Motif de consultation\n\nNous nous sommes rencontrés aujourd'hui pour discuter des difficultés d'attention et de concentration que vous rencontrez à l'école et à la maison depuis plusieurs mois.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "synthese_evaluation": {
+      "type": "string",
+      "description": "Synthèse de l'évaluation",
+      "prompt": "Fournir une synthèse claire de l'évaluation clinique réalisée, en utilisant un langage accessible.",
+      "exemple": "## Ce que nous avons observé\n\nLors de notre entretien, j'ai pu constater :\n- Des difficultés à maintenir votre attention sur une tâche\n- Une tendance à répondre rapidement avant que les questions soient terminées\n- De bonnes capacités intellectuelles et de raisonnement\n- Une frustration face aux difficultés rencontrées en classe\n\nCes observations, combinées aux informations fournies par vos parents et votre enseignante, orientent vers un Trouble Déficit de l'Attention avec Hyperactivité (TDAH).",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "plan_traitement": {
+      "type": "string",
+      "description": "Plan de traitement",
+      "prompt": "Détailler le plan de traitement de façon concise, incluant les médicaments prescrits.",
+      "exemple": "## Notre plan d'action\n\n### Traitement médicamenteux\n- **RITALINE LP 20mg** : 1 comprimé chaque matin au petit-déjeuner\n  - Ce médicament aide à améliorer la concentration et à réduire l'impulsivité\n  - Effets possibles : légère diminution d'appétit, parfois difficultés d'endormissement\n\n### Approches complémentaires\n- Suivi psychologique avec Mme Martin (début le 10 mai)\n- Aménagements en classe (un courrier sera envoyé à votre enseignante)\n- Techniques d'organisation que nous avons discutées ensemble",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "suivi_prevu": {
+      "type": "string",
+      "description": "Suivi prévu",
+      "prompt": "Indiquer simplement la date du prochain rendez-vous et les points d'attention d'ici là.",
+      "exemple": "## Prochain rendez-vous\n\n- **Date :** Jeudi 29 mai 2025 à 15h30\n\n## Points d'attention d'ici notre prochaine rencontre\n\n- Noter les changements que vous observez avec le traitement\n- Compléter le petit carnet d'observation que je vous ai remis\n- Réaliser l'électrocardiogramme prescrit avant notre prochaine rencontre\n- M'appeler au 01.XX.XX.XX.XX si vous remarquez des effets indésirables importants",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "ressources": {
+      "type": "string",
+      "description": "Ressources complémentaires",
+      "prompt": "Mentionner brièvement les ressources complémentaires utiles et les documents joints.",
+      "exemple": "## Ressources utiles\n\n- Livre \"Mon cerveau a besoin de lunettes\" que je vous ai remis aujourd'hui\n- Site web de l'association TDAH France : www.tdah-france.fr\n\n## Documents joints\n- Ordonnance pour la RITALINE LP\n- Ordonnance pour l'électrocardiogramme\n- Carnet d'observation à compléter",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "conclusion": {
+      "type": "string",
+      "description": "Conclusion simple",
+      "prompt": "Terminer par une conclusion brève, sans formulations excessivement formelles.",
+      "exemple": "N'hésitez pas à me contacter si vous avez des questions avant notre prochain rendez-vous.\n\nBien cordialement,\n\nDr Pierre Jarlan",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    }
+  }
+}

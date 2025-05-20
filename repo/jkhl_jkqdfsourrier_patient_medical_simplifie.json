@@ -1,0 +1,58 @@
+{
+  "uid": "dacf9c04-b7a9-49a4-adf4-058ccf5724ed",
+  "title": "Courrier_patient_medical_simplifie",
+  "description": "Grille d'analyse pour les courriers médicaux simplifiés",
+  "prompt": "Analyse ce courrier médical et réponds aux questions suivantes",
+  "questions": [
+    {
+      "uid": "q1",
+      "key": "motif",
+      "description": "Quel est le motif de la consultation ?",
+      "prompt": "Identifie le motif principal de la consultation ou de l'hospitalisation.",
+      "example": "Le patient consulte pour des douleurs abdominales.",
+      "quality": -1,
+      "answer": "",
+      "remark": "Le motif est déduit de l'ensemble de la conversation, couvrant plusieurs aspects du suivi du patient.",
+      "review": ""
+    },
+    {
+      "uid": "q2",
+      "key": "diagnostic",
+      "description": "Quel est le diagnostic principal ?",
+      "prompt": "Identifie le diagnostic principal mentionné dans le courrier.",
+      "example": "Le diagnostic retenu est une appendicite aiguë.",
+      "quality": -1,
+      "answer": "",
+      "remark": "L'autisme est clairement mentionné par le médecin. Le TDAH est fortement impliqué par le traitement et les symptômes décrits, mais pas explicitement re-diagnostiqué dans cet échange.",
+      "review": ""
+    },
+    {
+      "uid": "q3",
+      "key": "traitement",
+      "description": "Quel traitement a été prescrit ?",
+      "prompt": "Liste les traitements prescrits ou les interventions réalisées.",
+      "example": "Le patient a bénéficié d'une appendicectomie par laparoscopie.",
+      "quality": -1,
+      "answer": "",
+      "remark": "La prescription médicamenteuse est clairement détaillée. L'usage de l'IA est une stratégie d'adaptation importante discutée.",
+      "review": ""
+    },
+    {
+      "uid": "q4",
+      "key": "suivi",
+      "description": "Quel suivi est recommandé ?",
+      "prompt": "Identifie les recommandations de suivi mentionnées dans le courrier.",
+      "example": "Un contrôle post-opératoire est prévu dans 15 jours.",
+      "quality": -1,
+      "answer": "",
+      "remark": "Le rendez-vous est clairement fixé. La proposition de projet d'outil IA est un élément de suivi concret.",
+      "review": ""
+    }
+  ],
+  "timestamp": 1746542344528,
+  "questionnaire_id": "jkhl_jkqdfsourrier_patient_medical_simplifie",
+  "icon": "📋",
+  "authors": [],
+  "tags": [],
+  "updated_at": "2025-05-16T09:57:29.370Z"
+}

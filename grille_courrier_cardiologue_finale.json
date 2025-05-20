@@ -1,0 +1,92 @@
+{
+  "creation_timestamp": "",
+  "questionnaire_id": "courrier_cardiologue_avant_psychostimulant",
+  "title": "Courrier au Cardiologue pour Évaluation avant Méthylphénidate",
+  "description": "Grille courte pour la génération d'un courrier de demande d'évaluation cardiaque avant introduction d'un traitement par méthylphénidate",
+  "icon": "❤️",
+  "questionnaire_type": "courrier_cardiologue_avant_psychostimulant",
+  "questionnaire_type_version": "2025-05-19_02-00-00",
+  "llm_prompt": "Assistant médical : À partir des informations fournies, génère un courrier adressé au cardiologue pour demander une évaluation cardiaque avant l'introduction d'un traitement par méthylphénidate. Utilise le format Markdown pour structurer ta réponse.",
+  "questions": {
+    "informations_patient": {
+      "type": "string",
+      "description": "Informations du patient",
+      "prompt": "Indiquer les informations essentielles du patient (nom, prénom, date de naissance).",
+      "exemple": "DUPONT Thomas, né le 12/06/2016 (9 ans)",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "diagnostic_tdah": {
+      "type": "string",
+      "description": "Type de TDAH",
+      "prompt": "Indiquer le type de TDAH diagnostiqué et sa sévérité.",
+      "exemple": "TDAH de présentation mixte, d'intensité modérée à sévère",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "antecedents_familiaux_cardiaque": {
+      "type": "string",
+      "description": "Antécédents cardiaques personnels et familiaux",
+      "prompt": "Y a-t-il des antécédents cardiaques personnels et familiaux notables ? (mort subite, troubles du rythme, malformations)",
+      "exemple": "Grand-père paternel : infarctus à 68 ans\nOncle maternel : arythmie diagnostiquée à 35 ans\nPas d'antécédent de mort subite dans la famille",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "antecedents_perso_notable": {
+      "type": "string",
+      "description": "Antécédents personnels notables",
+      "prompt": "Rechercher les antécédents personnels notables du patient qui méritent d'être mis en avant dans ce contexte médical général et cardiologique spécifiquement.",
+      "exemple": "Le jeune patient est né par voie basse après une grossesse sans particularité. Les parents rapportent un reflux gastro-œsophagien pendant les six premiers mois ainsi qu'une appendicite à l'âge de deux ans.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "elements_supplementaires": {
+      "type": "string",
+      "description": "Éléments supplémentaires - activité physique, traitement actuel",
+      "prompt": "Y a-t-il d'autres éléments que vous souhaitez porter à l'attention du cardiologue ? (activités sportives, traitements en cours)",
+      "exemple": "L'enfant pratique le football en club 2 fois par semaine sans difficulté rapportée.\nTraitement actuel : Ventoline à la demande pour asthme d'effort léger.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "demande_specifique": {
+      "type": "string",
+      "description": "Demande spécifique",
+      "prompt": "Préciser votre demande spécifique au cardiologue (ECG, échographie, autres).",
+      "exemple": "ECG +/- Échographie cardiaque selon votre évaluation",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "coordonnees_medecin": {
+      "type": "string",
+      "description": "Coordonnées du médecin",
+      "prompt": "Indiquer vos coordonnées (nom, titre, coordonnées de contact).",
+      "exemple": "Dr JARLAN Pierre\nPédopsychiatre\nCentre Médical de l'Enfant\n15 rue des Lilas, 75001 Paris\nTél : 06.64.97.68.19\nEmail : docteur.jarlan@gmail.com",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "courrier_genere": {
+      "type": "string",
+      "description": "Courrier généré",
+      "prompt": "Générer un courrier adressé au cardiologue en intégrant les informations recueillies. Le courrier doit expliquer le contexte de la demande d'évaluation (mise en place d'un traitement par méthylphénidate pour TDAH) et mentionner les éléments cliniques relevés.",
+      "exemple": "Le [Date du jour]\n\nChèr(e) Confrère,\n\nJe me permets de vous adresser le jeune DUPONT Thomas, né le 12/06/2016 (9 ans), pour une évaluation de sa fonction cardiaque (ECG +/- Échographie cardiaque selon votre évaluation) dans le cadre de la mise en place d'un traitement par psychostimulants (Méthylphénidate) pour un trouble déficitaire de l'attention avec hyperactivité de présentation mixte, d'intensité modérée à sévère.\n\nConcernant ses antécédents familiaux, on note un infarctus chez le grand-père paternel à 68 ans et une arythmie diagnostiquée chez un oncle maternel à 35 ans. Il n'y a pas d'antécédent de mort subite dans la famille.\n\nLe jeune patient est né par voie basse après une grossesse sans particularité. Les parents rapportent un reflux gastro-œsophagien pendant les six premiers mois ainsi qu'une appendicite à l'âge de deux ans.\n\nÀ noter que l'enfant pratique le football en club 2 fois par semaine sans difficulté rapportée et qu'il prend de la Ventoline à la demande pour un asthme d'effort léger.\n\nJe vous remercie par avance pour votre aide dans l'évaluation de la fonction cardiaque de ce jeune patient avant l'introduction du méthylphénidate.\n\nBien confraternellement,\n\nDr JARLAN Pierre\nPédopsychiatre\nTél : 06.64.97.68.19\nEmail : docteur.jarlan@gmail.com",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "creation_timestamp": "",
+  "questionnaire_id": "grille_consultation_suivi_pedopsy",
+  "title": "Grille de Consultation de Suivi en Pédopsychiatrie",
+  "description": "Grille standardisée pour le suivi des patients en pédopsychiatrie",
+  "icon": "🧠",
+  "questionnaire_type": "grille_consultation_suivi_pedopsy",
+  "questionnaire_type_version": "2025-03-10_12-45-59",
+  "llm_prompt": "Assistant médical : Analyse pour grille de consultation de suivi en pédopsychiatrie. Complète value, quality, review.",
+  "questions": {
+    "identification_patient": {
+      "description": "Identification du patient",
+      "prompt": "Préciser les informations d'identification du patient (âge, sexe, niveau scolaire). Inclure l'âge, le sexe, le niveau scolaire et la durée du suivi.",
+      "exemple": "Jeune garçon de 9 ans, en CE2, suivi depuis 3 mois.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "motif_consultation_initiale": {
+      "type": "string",
+      "description": "Motif de consultation initiale",
+      "prompt": "Rappeler brièvement le motif de la première consultation et les problématiques identifiées. Mentionner les principales problématiques qui ont motivé la prise en charge initiale.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "evolution_symptomes": {
+      "type": "string",
+      "description": "Évolution des symptômes",
+      "prompt": "Décrire l'évolution des symptômes depuis la dernière consultation. Préciser l'amélioration ou l'aggravation des symptômes principaux, l'apparition de nouveaux symptômes.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "adaptation_scolaire": {
+      "type": "string",
+      "description": "Adaptation scolaire",
+      "prompt": "Évaluer le fonctionnement et l'adaptation de l'enfant dans le milieu scolaire. Noter les performances académiques, relations avec les pairs et enseignants, comportement en classe.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "adaptation_familiale": {
+      "type": "string",
+      "description": "Adaptation familiale",
+      "prompt": "Documenter les relations familiales et le comportement de l'enfant à la maison. Préciser les interactions avec les parents/fratrie, respect des règles, autonomie dans les activités quotidiennes.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "adaptation_sociale": {
+      "type": "string",
+      "description": "Adaptation sociale",
+      "prompt": "Évaluer les compétences sociales et les relations avec les pairs en dehors du cadre scolaire. Décrire les relations amicales, participation à des activités de groupe, capacités d'interaction sociale.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "traitement_actuel": {
+      "type": "string",
+      "description": "Traitement actuel",
+      "prompt": "Documenter les traitements médicamenteux et non-médicamenteux en cours. Préciser les médicaments avec posologie, fréquence des thérapies psychologiques, autres interventions.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "observance_traitement": {
+      "type": "string",
+      "description": "Observance du traitement",
+      "prompt": "Évaluer l'adhésion au traitement prescrit et les éventuelles difficultés rencontrées. Noter la régularité de la prise médicamenteuse, participation aux séances thérapeutiques programmées.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "effets_secondaires": {
+      "type": "string",
+      "description": "Effets secondaires",
+      "prompt": "Identifier les effets indésirables liés au traitement médicamenteux. Décrire la nature, l'intensité et la fréquence des effets secondaires rapportés.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "examen_clinique": {
+      "type": "string",
+      "description": "Examen clinique",
+      "prompt": "Résumer les observations cliniques pertinentes lors de la consultation actuelle. Inclure état mental, humeur, comportement durant l'entretien, évaluation des fonctions cognitives, constantes si pertinentes.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "evaluation_developpementale": {
+      "type": "string",
+      "description": "Évaluation développementale",
+      "prompt": "Apprécier l'évolution du développement de l'enfant selon son âge. Évaluer le développement cognitif, langagier, moteur, affectif et social en fonction de l'âge.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "examens_complementaires": {
+      "type": "string",
+      "description": "Examens complémentaires",
+      "prompt": "Mentionner les nouveaux examens réalisés ou prescrits depuis la dernière consultation. Préciser la nature des examens, date de réalisation et résultats disponibles.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "impression_diagnostique": {
+      "type": "string",
+      "description": "Impression diagnostique actuelle",
+      "prompt": "Formuler l'impression diagnostique actuelle, confirmer ou réviser le diagnostic initial. Préciser les diagnostics principaux et associés selon les classifications CIM-10 ou DSM-5.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "objectifs_therapeutiques": {
+      "type": "string",
+      "description": "Objectifs thérapeutiques",
+      "prompt": "Définir ou réviser les objectifs du traitement à court et moyen terme. Formuler des objectifs spécifiques, mesurables et réalistes pour la période à venir.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "ajustement_traitement": {
+      "type": "string",
+      "description": "Ajustement du traitement",
+      "prompt": "Décrire les modifications apportées au plan de traitement. Préciser les changements de médication, ajustements de posologie, nouvelles approches thérapeutiques.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "coordination_soins": {
+      "type": "string",
+      "description": "Coordination des soins",
+      "prompt": "Documenter la collaboration avec les autres professionnels impliqués dans les soins. Mentionner les communications avec l'école, autres thérapeutes, services sociaux, etc.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "implication_famille": {
+      "type": "string",
+      "description": "Implication de la famille",
+      "prompt": "Évaluer l'engagement de la famille dans le processus thérapeutique. Noter la participation aux séances de guidance parentale, application des recommandations à domicile.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "prochaine_consultation": {
+      "type": "string",
+      "description": "Planification du suivi",
+      "prompt": "Détailler le plan de suivi et la date de la prochaine consultation. Préciser la fréquence du suivi, examens à réaliser d'ici la prochaine consultation, date prévue.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    }
+  }
+}

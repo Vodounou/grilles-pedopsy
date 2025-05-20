@@ -1,0 +1,48 @@
+{
+  "creation_timestamp": "",
+  "questionnaire_id": "grille_consultation_suivi_pedopsy_minimale",
+  "title": "Grille de Consultation de Suivi en Pédopsychiatrie (Minimale)",
+  "description": "Version minimale de la grille standardisée pour le suivi des patients en pédopsychiatrie",
+  "icon": "👶",
+  "questionnaire_type": "grille_consultation_suivi_pedopsy_minimale",
+  "questionnaire_type_version": "2025-03-10_12-45-59",
+  "llm_prompt": "Assistant médical : Analyse pour grille de consultation de suivi en pédopsychiatrie (minimale). Complète value, quality, review.",
+  "questions": {
+    "evolution_symptomes": {
+      "type": "string",
+      "description": "Évolution des symptômes",
+      "prompt": "Décrire l'évolution des symptômes depuis la dernière consultation. Préciser l'amélioration ou l'aggravation des symptômes principaux, l'apparition de nouveaux symptômes.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "traitement_actuel": {
+      "type": "string",
+      "description": "Traitement actuel et observance",
+      "prompt": "Documenter les traitements en cours et l'adhésion au traitement. Préciser les médicaments avec posologie, fréquence des thérapies, observance et effets secondaires éventuels.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "ajustement_plan_therapeutique": {
+      "type": "string",
+      "description": "Ajustement du plan thérapeutique",
+      "prompt": "Décrire les modifications apportées au plan de traitement et les objectifs thérapeutiques. Préciser les changements de médication, nouvelles approches thérapeutiques et objectifs à court terme.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    },
+    "prochaine_consultation": {
+      "type": "string",
+      "description": "Planification du suivi",
+      "prompt": "Détailler le plan de suivi et la date de la prochaine consultation. Préciser la fréquence du suivi, examens à réaliser d'ici la prochaine consultation, date prévue.",
+      "value": "",
+      "quality": 0,
+      "review": "",
+      "value_history": []
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "creation_timestamp": "",
+  "questionnaire_id": "resume_consultation_simple",
+  "title": "Résumé de Consultation Très Simplifié",
+  "description": "Fichier JSON ultra-simplifié pour le résumé de consultation, centré sur 3 questions clés (Évolution, Analyse, Projet) pour la problématique principale.",
+  "icon": "📄",
+  "questionnaire_type": "resume_consultation_tca_tres_simple",
+  "questionnaire_type_version": "2024-01-04_16-25-00",
+  "llm_prompt": "Assistant médical : Rédiger un résumé de consultation ultra-simplifié Compléter les champs value, quality, remarque pour chaque consultation (3 questions).",
+  "questions": {
+    "evolution_problematique": {
+      "type": "string",
+      "description": "Évolution de la Problématique Principale",
+      "value": "",
+      "quality": 0,
+      "remarque": "Décrire l'évolution de la problématique principale depuis la dernière consultation.",
+      "value_history": []
+    },
+    "analyse_problematique": {
+      "type": "string",
+      "description": "Analyse de la Problématique Principale",
+      "value": "",
+      "quality": 0,
+      "remarque": "Analyser la problématique principale au cours de la consultation (facteurs, mécanismes...).",
+      "value_history": []
+    },
+    "projet_therapeutique": {
+      "type": "string",
+      "description": "Projet Thérapeutique",
+      "value": "",
+      "quality": 0,
+      "remarque": "Définir le projet thérapeutique pour la problématique principale (objectifs, ajustements...).",
+      "value_history": []
+    }
+  },
+  "authors": [],
+  "tags": [
+    "resume"
+  ],
+  "updated_at": "2025-05-16T10:02:53.601Z"
+}
