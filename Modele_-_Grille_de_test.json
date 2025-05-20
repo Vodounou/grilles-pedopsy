@@ -20,6 +20,8 @@
   "questionnaire_id": "Modele_-_Grille_de_test",
   "icon": "",
   "authors": [],
-  "tags": [],
-  "updated_at": "2025-05-16T09:56:20.189Z"
+  "tags": [
+    "test"
+  ],
+  "updated_at": "2025-05-20T13:58:58.744Z"
 }
